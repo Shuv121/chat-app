@@ -1,0 +1,100 @@
+.logo{
+    display: block;
+    margin: auto;
+    max-width: 4%;  
+}
+
+
+
+body{
+    background-image: linear-gradient(white, rgb(213, 161, 213));
+    height: 100vh;
+}
+
+.container{
+    max-width: 60%;
+    background-color: rgb(175, 43, 175);
+    margin: auto;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.message{
+    background-color: rgb(172, 171, 171);
+    width: 25%;
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px rgb(199, 198, 198);
+}
+
+.left{
+    float: left;
+    clear: both;
+    background-color: white;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#messageInp{
+    width: 20%;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 7px 18px;
+    background:none;
+    box-shadow: 0px 0px 15px 0.3px purple;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(80, 0, 80);
+}
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .logo{
+        max-width: 10%;
+    }
+
+    .message{
+        width: 60%;
+    }
+
+    .btn{
+        padding: 4px 12px;
+    }
+
+    #messageInp{
+        width: 40%;
+    }
+}
+
+
+
+
+
+
